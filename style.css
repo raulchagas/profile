@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@100;200;300;400;500;600;800&display=swap");
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Open Sans";
+}
+
+h1,
+h2 {
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #343a40;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Raleway";
+  font-weight: 400;
+  text-align: justify;
+  color: #343a40c7;
+}
+
+h3 {
+  color: #2a9d8f;
+  font-family: Raleway;
+  font-weight: 600;
+  font-size: larger;
+}
+
+a:hover {
+  background-color: rgba(146, 143, 143, 0.3);
+}
+
+div {
+  display: block;
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 40px;
+  color: rgb(171, 166, 166);
+}
+
+.fa {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.img-border {
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
